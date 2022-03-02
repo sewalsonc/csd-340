@@ -1,0 +1,112 @@
+#container {
+    background-color:rgba(247, 112, 24, 0.2);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:#6d6f92;
+    font-weight: 400;
+    }
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #6d6f92;
+    font-weight: 400;
+    }
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    }
+p{
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-weight: 200;
+    color: white;
+    }
+figcaption {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+    color: #d8d8e2;
+}
+#image-gallery {
+    margin-top: 35px;
+    min-width: 800px;
+    max-width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 150px;
+    height: 125px;
+
+}
+.titles {
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #696969;
+}
+figure {
+    text-align: center;
+    margin: 0;
+}
+.grid-item {
+    background-color: #6D927E;
+    border: 1px solid #6d6f92;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px #6d6f92;
+}
+.button {
+    background-color: #6D927E;; 
+    border: solid #d8d8e2;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+label{
+    text-align: left;
+    margin-left: 10px;
+    float: left;
+    padding-top: 1px;
+}
+input{
+    text-align: right;
+    margin-right: 10px;
+    float: right;
+}
+#footer{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: #6d6f92;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+a:link, :visited {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-weight: 200;
+    color: white;
+}
