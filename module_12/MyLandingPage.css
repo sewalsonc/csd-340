@@ -1,58 +1,57 @@
-#container {
-    background-color:rgba(247, 112, 24, 0.2);
+#container{
+    align-content:auto;
+}
+body{
+    background-color:#d8e5be;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color:#6d6f92;
-    font-weight: 400;
-    }
+    font-weight: 500;
+}
 h2 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    color: #6d6f92;
-    font-weight: 400;
-    }
+    color: #5054a8;
+    font-weight: 500;
+}
 h3 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-weight: 400;
-    color: white;
-    }
+    color: rgb(209, 214, 226);
+}
 p{
     font-family: 'Oswald', sans-serif;
     text-align: left;
     font-weight: 200;
-    color: white;
-    }
+    color: rgb(209, 214, 226);
+}
+
+.sections {
+    text-align: center;
+}
 figcaption {
     font-family: 'Oswald', sans-serif;
     font-style: italic;
     font-size: .75em;
     font-weight: 400;
-    color: #d8d8e2;
+    color: #2f2f46;
 }
-#image-gallery {
+.columns {
     margin-top: 35px;
+    margin:auto;
     min-width: 800px;
     max-width: 950px;
-    margin-right: auto;
-    margin-left: auto;
     display: grid;
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: 33% 33% 33%;
     border-top: solid 1px;
     border-bottom: solid 1px;
     margin-bottom: 10px;
 }
-.logo{
-    width: 150px;
-    height: 125px;
 
-}
-.titles {
-    text-align: center;
-}
 img {
     width: 250px;
     height: 180px;
@@ -64,24 +63,40 @@ figure {
     text-align: center;
     margin: 0;
 }
-.grid-item {
-    background-color: #6D927E;
-    border: 1px solid #6d6f92;
-    border-radius: 10px;
-    padding: 5px;
+.card {
+    background-color:#506d19;
+    border: solid rgb(5, 44, 128);
+    border: 4px solid #6d6f92;
+    border-radius: 5px;
+    padding: 10px;
     margin: 10px;
-    box-shadow: 2px 2px 2px #6d6f92;
+    box-shadow: 2px 2px 2px #506d19;
 }
-.button {
-    background-color: #6D927E;; 
-    border: solid #d8d8e2;
-    color: white;
-    padding: 15px 32px;
+.card.page-width{
+    padding: 0px;
+    margin: 20px;
+}
+.links {
+    background-color: #506d19;
+    border: solid rgb(96, 122, 179);
+    color: rgb(231, 234, 240);
+    padding: 8px 32px;
+    border: 3px solid #616391;
+    border-radius: 5px;
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
+.sections a:hover{
+    text-decoration: underline;
+}
+.form-field{
+    padding: 23px;
+    float: left;
+}
+
 label{
     text-align: left;
     margin-left: 10px;
@@ -89,24 +104,26 @@ label{
     padding-top: 1px;
 }
 input{
-    text-align: right;
-    margin-right: 10px;
-    float: right;
+    text-align: left;
+    margin-right: 0px;
+    float: left;
 }
 #footer{
     width: 100%;
     height: 20px;
     text-align: center;
-    background-color: #6d6f92;
+    background-color: #506d19;
     position: absolute;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 40px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
 }
 a:link, :visited {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     text-align: left;
     font-weight: 200;
-    color: white;
+    color: rgb(209, 214, 226);
 }
